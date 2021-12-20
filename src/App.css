@@ -1,0 +1,19 @@
+body{
+  background-color: #253680;
+}
+
+.text-align{
+  text-align: center;
+  color: #FFF;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.App{
+  width: 60%;
+  margin: 10% auto;
+}
+
+*{
+  box-sizing: border-box;
+}

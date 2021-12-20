@@ -1,0 +1,45 @@
+.TodoItems{
+    background-color: #FFF;
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+
+}
+
+.TodoItems span{
+    display: inline-block;
+    padding: 10px 4px;
+    text-align: center;
+    border: 1px solid #DDD;
+}
+
+.TodoItems span.name{
+    width: 50%;
+}
+.TodoItems span.age{
+    width: 30%;
+}
+.TodoItems span.action{
+    width: 20%;
+}
+
+
+.title{
+    background-color: #03a9f4;
+    color: #FFF;
+}
+
+.TodoItems .Del{
+    background-color: crimson;
+    color: #FFF;
+    border-radius: 3px;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+.show{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}

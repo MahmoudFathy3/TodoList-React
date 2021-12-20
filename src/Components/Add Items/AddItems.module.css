@@ -1,0 +1,37 @@
+.add{
+    width: 60%;
+    margin: auto;
+}
+
+.add form{
+    padding: 0;
+    margin: 0; 
+}
+.add form input{
+    padding: 15px; 
+    border: 1px solid #DDD;
+}
+.add form input[type='submit']{
+    background-color: transparent;
+    color: #FFF;
+    cursor: pointer;
+}
+.add form input.name{
+    width: 50%;
+}
+
+.add form input.age{
+    width: 30%; 
+}
+
+.add form input.submit{
+    width: 20%; 
+}
+
+.add form input:focus{
+    outline: none;
+}
+
+.add form input:focus::placeholder{
+    opacity: 0;
+}
