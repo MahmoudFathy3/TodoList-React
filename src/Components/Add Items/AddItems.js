@@ -8,14 +8,17 @@ const AddItems = ({ Newdata }) => {
   });
 
   const ChangeHandler = (e) => {
-    setNewItem({
-      [e.target.id]: e.target.value,
-    });
+    setNewItem({ ...Newitem, [e.target.id]: e.target.value });
   };
 
   const submitHandler = (e) => {
     e.preventDefault();
-    Newdata(Newitem);
+    if (Newitem.name || Newitem.age) {
+      Newdata(Newitem);
+    } else {
+      alert("Please Add Value");
+    }
+
     setNewItem({
       name: "",
       age: "",

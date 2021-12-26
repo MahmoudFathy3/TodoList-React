@@ -30,14 +30,11 @@ const TodoList = () => {
 
   const Additem = (Newitem) => {
     Newitem.id = Math.floor(Math.random() * 600);
-    // const itemList = item;
-    // itemList.push(Newitem);
+
     setItem((PrevItem) => {
       return [...PrevItem, Newitem];
     });
   };
-  console.log(item);
-  console.log(item.length);
 
   return (
     <div className={styles.TodoList}>
