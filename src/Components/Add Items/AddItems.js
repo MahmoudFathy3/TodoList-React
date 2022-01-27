@@ -10,7 +10,6 @@ const AddItems = ({ Newdata }) => {
   const ChangeHandler = (e) => {
     setNewItem({ ...Newitem, [e.target.id]: e.target.value });
   };
-  console.log(Newitem);
 
   const submitHandler = (e) => {
     e.preventDefault();
